@@ -10,7 +10,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open sans', 'sans-serif';
-    background-color: #68b0ab;
+    background-color: #DA4167;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -195,7 +195,7 @@ body {
 
 .candles {
     position: relative;
-    top: -50%;
+    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -241,14 +241,6 @@ body {
     font-family: 'Nanum Pen Script', cursive;
     opacity: 0;
     animation: show 1800s linear 30s;
-}
-
-.heart {
-    font-size: 20px;
-}
-
-.flip {
-    transform: rotateY(180deg);
 }
 
 @keyframes show {
