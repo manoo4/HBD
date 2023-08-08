@@ -149,9 +149,11 @@ body {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;   
+    position: relative;
 }
 
 .layers {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -192,6 +194,8 @@ body {
 }
 
 .candles {
+    position: relative;
+    top: -50%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
